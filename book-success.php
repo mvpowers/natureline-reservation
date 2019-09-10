@@ -44,7 +44,7 @@
 					  CURLOPT_RETURNTRANSFER => true,
 					  CURLOPT_HTTPHEADER => [
 					    "accept: application/json",
-					    "authorization: Bearer sk_test_b6c0b49254032fd6dd4af7595629c42e1cf760d1",
+					    "authorization: Bearer ", // key here
 					    "cache-control: no-cache"
 					  ],
 					));

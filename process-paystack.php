@@ -18,7 +18,7 @@ curl_setopt_array($curl, array(
     'email'=>$email,
   ]),
   CURLOPT_HTTPHEADER => [
-    "authorization: Bearer sk_test_b6c0b49254032fd6dd4af7595629c42e1cf760d1", 
+    "authorization: Bearer ", //key here
     "content-type: application/json",
     "cache-control: no-cache"
   ],

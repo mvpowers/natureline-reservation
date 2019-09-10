@@ -1,0 +1,21 @@
+.recent{
+	color:green;
+	border: 1px solid green;
+	text-align: center;
+}
+
+.archive{
+	color: red;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.recent th, .recent td{
+	border-right: 1px solid green;
+	border-bottom: 1px solid green;
+}
+
+.archive th, .archive td{
+	border-right: 1px solid red;
+	border-bottom: 1px solid red;
+}
